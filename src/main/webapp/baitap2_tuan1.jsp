@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Bài 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="work">
 <h1>Bảng Nhân 2</h1>
-<table>
+<table class="math-table">
   <tr>
     <th>Biểu thức</th>
     <th>Kết quả</th>

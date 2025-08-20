@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Bảng Cửu Chương</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-<h1>Bảng Cửu Chương</h1>
-<table>
+<body class="work">
+<h1 class="h1work">Bảng Cửu Chương</h1>
+<table class="math-table">
     <tr>
         <% for(int i=2; i<=9; i++) { %>
         <th>Bảng <%= i %></th>
