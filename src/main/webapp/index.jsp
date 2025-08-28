@@ -13,9 +13,9 @@
         <h2>Tuần 1</h2>
         <p>Bài tập JSP cơ bản</p>
     </a>
-    <a class="week-box-none" href="week2.jsp">
+    <a class="week-box" href="week2.jsp">
         <h2>Tuần 2</h2>
-        <p>?</p>
+        <p>Giai thừa và Nhap TT</p>
     </a>
     <a class="week-box-none" href="week3.jsp">
         <h2>Tuần 3</h2>

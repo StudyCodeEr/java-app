@@ -1,5 +1,5 @@
 body {
-    font-family: "Segoe UI";
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to bottom right,#372a8a,#211088 );
     margin: 0;
     padding: 0;
@@ -140,12 +140,12 @@ h1 {
 }
 
 .math-table th {
-    background: #a991f1; /* Tím nhạt */
-    color: #fff;         /* Chữ trắng nổi bật */
+    background: #a991f1;
+    color: #fff;
     padding: 12px;
     font-size: 18px;
     text-align: center;
-    width: 50%; /* Đảm bảo 2 cột cân nhau */
+    width: 50%;
 }
 
 .math-table td {
@@ -157,9 +157,75 @@ h1 {
 }
 
 .math-table tr:nth-child(even) td {
-    background: #f9f9f9; /* Hàng xen kẽ */
+    background: #f9f9f9; /* Hang xen ke */
 }
 
 .math-table tr:hover td {
-    background: #f1eaff; /* Hover highlight nhẹ tím nhạt */
+    background: #f1eaff;
+}
+/* bai 4 va 5 */
+.input-form {
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #a991f1;
+    border-radius: 8px;
+    background: #fdfcff;
+    width: 300px;
+    text-align: center;
+}
+
+.input-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #372a8a;
+}
+
+.input-form input[type="text"] {
+    padding: 6px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-form button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #a991f1;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-form button:hover {
+    background: #8b72de;
+}
+/* dong bo nut  */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #a991f1;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8b72de;
+}
+
+.result-box {
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px dashed #a991f1;
+    border-radius: 8px;
+    width: 300px;
+    background: #fff;
+    color: #333;
 }

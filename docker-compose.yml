@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  javaapp:
+    image: tomcat:9.0-jdk17   # Dùng sẵn Tomcat
+    container_name: javaapp
+    ports:
+      - "8080:8080"
+    volumes:
+      # Mount JSP/HTML trực tiếp
+      - ./src/main/webapp:/usr/local/tomcat/webapps/JavaApp
+    restart: always
